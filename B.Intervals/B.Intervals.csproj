@@ -1,17 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;netcoreapp2.1;net45;net5.0;</TargetFrameworks>
     <Nullable>enable</Nullable>
-	<Version>1.0.1</Version>
+	<Version>1.0.2</Version>
 	<Authors>Balint Nagy</Authors>
 	<Description>Implements generic intervals for orderable types (that implement IComparable&lt;T&gt;).</Description>
-	<Copyright>2023 Balint Nagy</Copyright>
+	<Copyright>2023-2024 Balint Nagy</Copyright>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
 	<RepositoryUrl>https://github.com/balintn22/B.Intervals</RepositoryUrl>
 	<PackageReleaseNotes>Initial implementation.</PackageReleaseNotes>
 	<PackageLicenseFile>LICENSE</PackageLicenseFile>
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<LangVersion>10.0</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>

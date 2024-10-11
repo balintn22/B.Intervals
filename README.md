@@ -35,3 +35,5 @@ You can change them to exclude either end
 
     Interval<int>? intersection = new Interval<int>(0, 10).IntersectionWith(new Interval<int>(5, 15));
 
+**Version History**
+v1.0.2 Added support multiple .Net flavors

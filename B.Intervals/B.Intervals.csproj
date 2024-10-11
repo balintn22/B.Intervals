@@ -3,8 +3,26 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
-	<Version>1.0.0</Version>
+	<Version>1.0.1</Version>
 	<Authors>Balint Nagy</Authors>
+	<Description>Implements generic intervals for orderable types (that implement IComparable&lt;T&gt;).</Description>
+	<Copyright>2023 Balint Nagy</Copyright>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<RepositoryUrl>https://github.com/balintn22/B.Intervals</RepositoryUrl>
+	<PackageReleaseNotes>Initial implementation.</PackageReleaseNotes>
+	<PackageLicenseFile>LICENSE</PackageLicenseFile>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

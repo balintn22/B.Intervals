@@ -1,5 +1,11 @@
 # B.Intervals
-Implements generic intervals for orderable types (that implement IComparable<T>).
+Implements generic intervals for orderable types (that implement IComparable<T>), for example
+- Interval<int>
+- Interval<double>
+- Interval<DateTime>
+- Interval<DateOnly>
+- Interval<TimeOnly>
+- Interval<MyType>
 
 Examples using intervals of integers
 
